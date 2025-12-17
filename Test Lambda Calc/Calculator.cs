@@ -10,5 +10,10 @@ namespace Test_Lambda_Calc
         {
             throw new NotImplementedException();
         }
+
+        public void calculate(double x, double y, Action<double, double> operation)
+        {
+            operation(x, y);
+        }
     }
 }
