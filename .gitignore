@@ -1,0 +1,15 @@
+## Visual Studio
+.vs/
+.vscode/
+
+## Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
